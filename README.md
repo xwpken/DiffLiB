@@ -8,14 +8,14 @@ Differentiable Lithium-ion batteries simulation framework.
 
 First intsall `JAX` (see [JAX installation guide](https://docs.jax.dev/en/latest/installation.html)), then follow the [JAX-FEM instructions](https://github.com/deepmodeling/jax-fem?tab=readme-ov-file#installation) to install `JAX-FEM`, which will create a new conda environment.
 
-Active the environment and clone the repository:
+Activate the environment and clone the repository:
 
 ```bash
 git clone https://github.com/xwpken/DiffLiB.git
 cd DiffLiB
 ```
 
-and install the package locally:
+then install the package locally:
 
 ```bash
 pip install -e .
