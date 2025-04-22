@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmsl-difflib" 
+version = "0.0.1"
+requires-python = ">=3.9"
+urls = {homepage = "https://github.com/xwpken/DiffLiB"}
+authors = [ 
+  {name = "Weipeng Xu", email = "wxuby@connect.ust.hk"},
+  {name = "Tianju Xue", email = "cetxue@ust.hk"}
+]
+description = "Differentiable simulation framework of Lithium-ion batteries."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[tool.setuptools]
+packages = ["cmsl", "cmsl.difflib"]
+package-dir = {"" = "src"}
