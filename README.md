@@ -6,7 +6,7 @@
   <img src="images/logo.png" width="500" />
 </p>
 
-A differentiable simulation framework for solving forward and inverse problems of lithium-ion batteries :battery:, with the backend support of the modern scientific computing framework [JAX](https://docs.jax.dev/en/latest/) and the differentiable finite element analysis library [JAX-FEM](https://github.com/deepmodeling/jax-fem).
+A differentiable simulation framework for solving forward and inverse problems of :battery: lithium-ion batteries :battery:, with the backend support of the modern scientific computing framework [JAX](https://docs.jax.dev/en/latest/) and the differentiable finite element analysis library [JAX-FEM](https://github.com/deepmodeling/jax-fem).
 
 ## Features
 
