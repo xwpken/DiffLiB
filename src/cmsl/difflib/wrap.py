@@ -85,6 +85,8 @@ def fast_wrapper(ParameterSets, mesh, model,
         
         def fwd_pred_seq(x_vars):
             
+            x_vars = np.insert(x_vars, 6, np.array([paramsets.ds_an, paramsets.ds_ca]))
+            
             sol_macro_old, sol_micro_old = assign_init_sol(paramsets, mesh_macro, problem_micro, x_vars)
             
             t0 = time.time() 
