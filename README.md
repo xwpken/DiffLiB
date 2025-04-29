@@ -1,7 +1,5 @@
 # DiffLiB
 
-![Github Star](https://img.shields.io/github/stars/xwpken/DiffLiB) ![Github Fork](https://img.shields.io/github/forks/xwpken/DiffLiB) ![License](https://img.shields.io/github/license/xwpken/DiffLiB.svg)
-
 <p align="middle">
   <img src="images/logo.png" width="500" />
 </p>
